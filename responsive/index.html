@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiEmpresa - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">MSV GAMER</a>
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" >Inicio</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#login" class="btn-login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1>Bienvenidos a Mi Empresa </h1>
+            <p>La solución para tus necesidades tecnológicas</p>
+            <a href="#producto" class="btn-primary">Descubre nuestros productos</a>
+        </div>
+    </section>
+
+    
+
+    <!-- Sección de producto -->
+    <section id="producto" class="producto-section">
+        <div class="container">
+            <h2>Nuestros Videojuegos</h2>
+            <div class="productos-grid">
+                <!-- Producto 1 -->
+                <div class="producto-item">
+                    <h3>Aventura Épica</h3>
+                    <p>Sumérgete en un vasto mundo abierto lleno de misiones, misterios y combates épicos. Aventura Épica te llevará a un viaje inolvidable donde tus decisiones cambiarán el destino del reino.</p>
+                </div>
+                <!-- Producto 2 -->
+                <div class="producto-item">
+                    <h3>Carrera Extrema 2024</h3>
+                    <p>Corre en pistas realistas con gráficos de última generación. Personaliza tu coche, compite con otros jugadores en línea y demuestra quién es el verdadero campeón en Carrera Extrema 2024.</p>
+                </div>
+                <!-- Producto 3 -->
+                <div class="producto-item">
+                    <h3>Batalla Espacial: Defensores</h3>
+                    <p>Forma tu flota de naves espaciales y defiende la galaxia contra invasores alienígenas. Batalla Espacial ofrece combates tácticos en tiempo real y una historia llena de giros sorprendentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="" style="width: 100%; display: flex; justify-content: center;">
+        <div class="" style="width: 100%; display: flex; justify-content: center;">
+            <form action="#" style="width: 100%;"> 
+                <h2 style="margin-bottom: 15px;">Contacto</h2>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" style="width: 100%;">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Tu email" style="width: 100%;">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección de Login -->
+    <section id="login" class="" style="width: 100%; display: flex; justify-content: center;">
+        <div class="" style="width: 100%; display: flex; justify-content: center;">
+            <form action="#" style="width: 100%;"> 
+                <h2 style="margin-bottom: 15px;">Login</h2>
+                <div class="form-group">
+                    <label for="email-login">Email</label>
+                    <input type="email" id="email-login" name="email-login" placeholder="Tu email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Tu contraseña">
+                </div>
+                <button type="submit" class="btn-primary">Iniciar Sesión</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
